@@ -1,0 +1,99 @@
+. contenido {
+  posición : relativa;
+  ancho :  100 % ;
+  pantalla : flexible;
+  justificar-contenido : espacio-entre;
+  relleno superior :  150 px ;
+  ancho máximo :  90 rem ;
+  margen :  0 automático;
+}
+. contenido _ héroe-texto {
+  posición : relativa;
+  ancho máximo :  600 px ;
+}
+. héroe-texto  h1 {
+  color :  # 333 ;
+  tamaño de fuente :  4 em ;
+  altura de línea :  1,5 em ;
+  peso de fuente :  500 ;
+}
+. héroe-texto  p {
+    color :  # 333 ;
+}
+. héroe-texto  fuerte {
+  color :  # 037043 ;
+  tamaño de fuente :  1,2 em ;
+  peso de fuente :  900 ;
+}
+. botón-más  un {
+  color : blanco;
+  pantalla : bloque en línea;
+  margen superior :  20 px ;
+  relleno :  8 px  20 px ;
+  fondo :  # 037043 ;
+  borde-radio :  40 px ;
+  peso de fuente :  500 ;
+  espaciado entre letras :  1 px ;
+  transición :  0,5 s facilidad;
+}
+. botón-más  a : flotar {
+    fondo :  # 158b5a ;
+}
+. héroe-img  img {
+    pantalla : flexible;
+    justificar-contenido : extremo flexible;
+    ancho :  400 píxeles ;
+    margen superior :  -50 px ;
+    margen derecho :  150 px ;
+    transición :  0,5 s facilidad;
+}
+. héroe-img  img : flotar {
+    transformar :  traducir Y ( -20 px );
+}
+. elementos-estrella {
+    pantalla : flexible;
+}
+. elementos-estrella  ul {
+    posición : relativa;
+    izquierda :  50 % ;
+    abajo :  20 px ;
+    transformar :  traducirX ( -50 % );
+    pantalla : flexible;
+}
+. elementos-estrella  li {
+    pantalla : bloque en línea;
+    margen :  0  20 px ;
+    cursor : puntero;
+    transición :  0,5 s facilidad;
+}
+. elementos-estrella  li : flotar {
+    transformar :  traducir Y ( -15 px );
+}
+. elementos-estrella  li  img {
+    ancho :  70 píxeles ;
+}
+. redes-sociales {
+    posición : absoluta;
+    arriba :  40 % ;
+    derecha :  30 px ;
+    pantalla : flexible;
+}
+. redes-sociales  li  a {
+    pantalla : bloque en línea;
+    margen :  10 px  0 ;
+    tamaño de fuente :  30 px ;
+    color : blanco;
+    transición :  0,5 s facilidad;
+}
+. redes-sociales  li  a : hover {
+    transformar :  traducir Y ( -15 px );
+}
+. círculo {
+    posición : fijo;
+    superior :  0 ;
+    izquierda :  0 ;
+    ancho :  100 % ;
+    altura :  100 % ;
+    fondo :  # 015935 ;
+    clip-path :  círculo ( 750 px a la derecha 900 px );
+}
