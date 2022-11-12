@@ -1,5 +1,5 @@
 function changeimg(anything){
-    document.querySelector(".img-starbucks").src = anything;
+    document.querySelector(".img-Guns").src = anything;
 }
 
 function changecircle(color){
