@@ -18,3 +18,17 @@ tl.fromTo(header,1,{height: "0%"},{height: "80%" , ease: Power2.easeInout})
 .fromTo(redes, 0.5, {opacity: 0},{opacity: 1},"-=0.5")
 .fromTo(elementstart, 0.5, {opacity: 0},{opacity: 1},"-=0.5")
 .fromTo(circle, 1.2, {opacity: 0},{opacity: 1},"-=0.5")
+
+let products = [];
+let total = 0;
+
+function add(product, price) {
+    console.log(product, price);
+    products.push(product);
+    total = total + price;
+    document.getElementById("checkout").innerHTML = `Pagar $${total}`
+}
+
+function pay() {
+    window.alert(products.join(", \n"));
+}
