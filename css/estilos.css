@@ -5,7 +5,7 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  color: #9698a6;
+  color: #ffffff;
 }
 .header {
   display: flex;
@@ -13,7 +13,7 @@ body {
   padding: 50px 0px 0px 0px;
   justify-content: space-between;
   align-items: center;
-  max-width: 90rem;
+  max-width: 100rem;
   margin: 0 auto;
 }
 a {
@@ -29,12 +29,12 @@ li {
   margin-right: 60px;
 }
 .nav-links ul li a {
-  color: #363636;
+  color: #000000;
   font-weight: 500;
   transition: 0.5s ease;
 }
 .nav-links ul li a:hover {
-  color: #037043;
+  color: #c0e507;
 }
 .nav-links a {
   position: relative;
@@ -48,7 +48,7 @@ li {
   right: 0;
   bottom: -20px;
   opacity: 0;
-  background: #037043;
+  background: #d8df0a;
   border-radius: 5px;
   transition: 0.5s ease-in-out;
 }
@@ -56,10 +56,10 @@ li {
   opacity: 1;
 }
 .active {
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
   padding: 10px 20px 10px 20px;
   border-radius: 20px;
-  background: #037043;
+  background: #ffff08;
 }
 .nav-links a.active::before{
   background: transparent;
@@ -77,5 +77,5 @@ li {
   transition: 0.5s ease;
 }
 .dark-mode label:hover{
-  color: #158b5a;
+  color: #c6e611;
 }
