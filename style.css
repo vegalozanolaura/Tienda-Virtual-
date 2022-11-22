@@ -1,0 +1,56 @@
+
+body {
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Nerko One', cursive;
+}
+
+button {
+    font-size: 18px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 1px 10px;
+}
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-container {
+    margin: 8px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.1);
+    background-color: rgb(57, 57, 57);
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.product-container img {
+    width: 300px;
+}
+
+.product-container h1 {
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.button-add {
+    background-color: rgb(250, 238, 14);
+    color: black;
+    border: 1px solid #000000; /* Green */
+    transition-duration: 0.5s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+  
+.button-add:hover {
+    background-color: #fefe13; /* Green */
+    color: rgb(0, 0, 0);
+}
+
