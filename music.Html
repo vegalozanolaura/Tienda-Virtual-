@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="./imagenes/Icono.png" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+    <title>Guns N Roses</title>
+  </head>
+  <body>
+    <div class="circle"></div>
+    <header class="header">
+        <!-- Logo -->
+        <a href="#"  id="logo">
+            <img src="./imagenes/logo guns n roses.png" alt="logo" class="logo">
+        </a>
+
+    <style>
+      body {
+          transition: 0.2s ease-in-out;
+      }
+      .fa-adjust:before {
+          font-size: 30px;
+      }
+      :root {
+          --switch-dark-mode: #363636;
+          --nav-text: #363636;
+          --hero-text-p: #363636;
+          --hero-text-h1: #333;
+      }
+      .dark-mode label {
+          color: var(--switch-dark-mode);
+      }
+      .nav-links ul li a {
+          color: var(--nav-text);
+      }
+      .hero-text h1{
+          color: var(--hero-text-h1);
+      }
+      .hero-text p{
+          color: var(--hero-text-p);
+      }
+      .is-dark-mode {
+          --switch-dark-mode: white;
+          --hero-text-h1: #eeeeee;
+          --hero-text-p: #a9a9a9;
+          --nav-text: white;
+          background: rgb(32, 32, 32);
+      }
+  </style>
+</head>
+<body>
+
+<!-- Music -->
+<nav class="nav-links">
+    <ul>
+        <li><a href="./Index.html"class="active">Home</a></li>
+        <li><a href="./shopping.html"class="active">Shopping</a></li>
+        <li><a href="./carrito.html" class="active">Your Rocker Car</a></li>
+        <li><a href="./music.Html"class="active">Music</a></li>
+        <li><a href="./contact.html"class="active">Contact</a></li>
+        <li>
+            <div class="dark-mode">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox" class="fas fa-adjust"></label>
+            </div>
+        </li>
+    </ul>
+</nav>
+</header>
+<div class="redes-sociales">
+  <ul>
+      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+  </ul>
+</div>
+</div>
+</body>
+    <div class="player">
+      <div class="player__header">
+        <div class="player__img player__img--absolute slider">
+          <button class="player__button player__button--absolute--nw playlist">
+            <img
+              src="http://physical-authority.surge.sh/imgs/icon/playlist.svg"
+              alt="playlist-icon"
+            />
+          </button>
+          <button class="player__button player__button--absolute--center play">
+            <img
+              src="http://physical-authority.surge.sh/imgs/icon/play.svg"
+              alt="play-icon"
+            />
+            <img
+              src="http://physical-authority.surge.sh/imgs/icon/pause.svg"
+              alt="pause-icon"
+            />
+          </button>
+          <div class="slider__content">
+            <img
+              class="img slider__img"
+              src="./imagenes/img 1.jpg"
+              alt="cover"
+            />
+            <img
+              class="img slider__img"
+              src="./imagenes/img 2.jpeg"
+              alt="cover"
+            />
+            <img
+              class="img slider__img"
+              src="./imagenes/img 3.jpeg"
+              alt="cover"
+            />
+            <img
+              class="img slider__img"
+              src="./imagenes/descarga4.jpeg"
+              alt="cover"
+            />
+            <img
+              class="img slider__img"
+              src="./imagenes/images 5.jpeg"
+              alt="cover"
+            />
+            <img
+              class="img slider__img"
+              src="./imagenes/images 6.jpeg"
+              alt="cover"
+            />
+            <img
+              class="img slider__img"
+              src="./imagenes/imagen 7.jpeg"
+              alt="cover"
+            />
+          </div>
+        </div>
+
+        <div class="player__controls">
+          <button class="player__button back">
+            <img
+              class="img"
+              src="http://physical-authority.surge.sh/imgs/icon/back.svg"
+              alt="back-icon"
+            />
+          </button>
+          <p class="player__context slider__context">
+            <strong class="slider__name"></strong>
+            <span class="player__title slider__title"></span>
+          </p>
+          <button class="player__button next">
+            <img
+              class="img"
+              src="http://physical-authority.surge.sh/imgs/icon/next.svg"
+              alt="next-icon"
+            />
+          </button>
+          <div class="progres">
+            <div class="progres__filled"></div>
+          </div>
+        </div>
+      </div>
+
+      <ul class="player__playlist list">
+        <li class="player__song">
+          <img
+            class="player__img img"
+            src="./imagenes/img 1.jpg"
+            alt="cover"
+          />
+          <p class="player__context">
+            <b class="player__song-name">Appetite for Destruction</b>
+            <span class="flex">
+            <span class="player__title">Axl Rose</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio
+            class="audio"
+            src="./imagenes/y2mate.com - Guns N Roses  Its So Easy.mp3"
+          ></audio>
+        </li>
+        <li class="player__song">
+          <img
+            class="player__img img"
+            src="./imagenes/img 2.jpeg"
+            alt="cover"
+          />
+          <p class="player__context">
+            <b class="player__song-name">Use Your Illusion I</b>
+            <span class="flex">
+              <span class="player__title">Slash </span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio
+            class="audio"
+            src="./imagenes/y2mate.com - Guns N Roses  Perfect Crime Visualizer.mp3"
+          ></audio>
+        </li>
+        <li class="player__song">
+          <img
+            class="player__img img"
+            src="./imagenes/img 3.jpeg"
+            alt="cover"
+          />
+          <p class="player__context">
+            <b class="player__song-name">Usa tu ilusión II</b>
+            <span class="flex">
+              <span class="player__title">Izzy Stradlin</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio
+            class="audio"
+            src="./imagenes/y2mate.com - Chinese Democracy.mp3"
+          ></audio>
+        </li>
+        <li class="player__song">
+          <img
+            class="player__img img"
+            src="./imagenes/images 4}.jpeg"
+            alt="cover"
+          />
+          <p class="player__context">
+            <b class="player__song-name">Chinese Democracy</b>
+            <span class="flex">
+              <span class="player__title">Steven Adler</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio
+            class="audio"
+            src="./imagenes/y2mate.com - Guns N Roses  Yesterdays.mp3"
+          ></audio>
+        </li>
+        <li class="player__song">
+          <img
+            class="player__img img"
+            src="./imagenes/images 5.jpeg"
+            alt="cover"
+          />
+          <p class="player__context">
+            <b class="player__song-name">The Spaghetti Incident?</b>
+            <span class="flex">
+              <span class="player__title">Dizzy Reed</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio
+            class="audio"
+            src="./imagenes/y2mate.com - Down On The Farm.mp3"
+          ></audio>
+        </li>
+        <li class="player__song">
+          <img
+            class="player__img img"
+            src="./imagenes/images 6.jpeg"
+            alt="cover"
+          />
+          <p class="player__context">
+            <b class="player__song-name">Bad Obsession</b>
+            <span class="flex">
+              <span class="player__title">Paul Tobias</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio
+            class="audio"
+            src="./imagenes/y2mate.com - Right Next Door To Hell Live.mp3"
+          ></audio>
+        </li>
+        <li class="player__song">
+          <img
+            class="player__img img"
+            src="./imagenes/imagen 7.jpeg"
+            alt="cover"
+          />
+          <p class="player__context">
+            <b class="player__song-name">Live On Air</b>
+            <span class="flex">
+              <span class="player__title">Frank Ferrer</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio
+            class="audio"
+            src="./imagenes/y2mate.com - Guns N Roses  Patience.mp3"
+          ></audio>
+        </li>
+      </ul>
+    </ul>
+</div>
+    </div>
+    <script></script>
+    <script src="music.js"></script>
+  </body>
+</html>
