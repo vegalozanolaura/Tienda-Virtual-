@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
 html {
   box-sizing: border-box;
@@ -10,7 +9,88 @@ html {
   --cubic-play-list: 0.35s var(--duration) cubic-bezier(0, 0.85, 0.11, 1.64);
   --cubic-slider-context: cubic-bezier(1, -0.01, 1, 1.01);
 }
-html *,
+html *,* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  align-items: center;
+}
+body {
+  font-family:'Times New Roman', Times, serif;
+  color: #000000;
+}
+.header {
+  display:flex;
+  /* padding: 50px 50px 20px 50px; */
+  padding: 50px 0px 0px 0px;
+  justify-content:center;
+  align-items:center ;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.nav-links ul {
+  display:flex;
+}
+.nav-links ul li {
+  margin-right: 60px;
+}
+.nav-links ul li a {
+  color: #000000;
+  font-weight: 500;
+  transition: 0.5s ease;
+}
+.nav-links ul li a:hover {
+  color: #c0e507;
+}
+.nav-links a {
+  position:relative;
+}
+.nav-links a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 5px;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+  opacity: 0;
+  background: #d8df0a;
+  border-radius: 5px;
+  transition: 0.5s ease-in-out;
+}
+.nav-links a:hover::before {
+  opacity: 1;
+}
+.active {
+  color: rgb(0, 0, 0) !important;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  background: #ffff08;
+}
+.nav-links a.active::before{
+  background: transparent;
+}
+.header .logo {
+  width: 80px;
+}
+.dark-mode input,
+.content-select select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.dark-mode label{
+  transition: 0.5s ease;
+}
+.dark-mode label:hover{
+  color: #c6e611;
+}
 html *::before,
 html *::after {
   box-sizing: inherit;
@@ -20,8 +100,8 @@ body {
   margin: 0;
   height: 100vh;
   display:center;
-  user-select: none;
-  align-items: center;
+  user-select:none;
+  align-items:center;
   justify-content: center;
   background-color: #020202;
   font-family: "Quicksand", sans-serif;
@@ -40,7 +120,7 @@ body {
   list-style-type: none;
 }
 .flex {
-  display: center;
+  display:flex;
   align-items: center;
   justify-content: space-between;
 }
@@ -54,7 +134,7 @@ body {
   font-size: 1.22em;
   border-radius: 1.35em;
   flex-direction: column;
-  background-color: rgb(156, 153, 153);
+  background-color: rgb(118, 118, 118);
   height: var(--parent-height);
 }
 .player__header {
@@ -65,7 +145,7 @@ body {
   height: 5.85em;
   flex-shrink: 0;
   position: relative;
-  align-items: flex-start;
+  align-items:flex-start;
   border-radius: inherit;
   justify-content: flex-end;
   background-color: rgb(110, 109, 109);
@@ -104,7 +184,7 @@ body {
   height: 14.6em;
 }
 .slider__content {
-  display: flex;
+  display:flex;
   height: 100%;
   will-change: transform;
   transition: transform var(--cubic-slider);
@@ -165,7 +245,7 @@ img[alt="pause-icon"] {
 .player__controls {
   width: 77%;
   gap: 0.5em 0;
-  display: flex;
+  display:flex;
   flex-wrap: wrap;
   align-items: center;
   will-change: contents;
@@ -217,7 +297,7 @@ img[alt="pause-icon"] {
   cursor: pointer;
   border-radius: 1em;
   touch-action: none;
-  background-color: #010811;
+  background-color: #f6f609;
   transition: width var(--cubic-header);
 }
 .player__controls.move .progres {
@@ -230,7 +310,7 @@ img[alt="pause-icon"] {
   position: relative;
   align-items: center;
   border-radius: inherit;
-  background-color: #78adfe;
+  background-color: #f9d211;
 }
 .progres__filled::before {
   right: 0;
@@ -239,7 +319,7 @@ img[alt="pause-icon"] {
   height: 0.35em;
   border-radius: 50%;
   position: absolute;
-  background-color: #d2d2d2;
+  background-color: #f5f10e;
 }
 .player__playlist {
   height: 100%;
@@ -265,7 +345,7 @@ img[alt="pause-icon"] {
   height: 0.35em;
   border-radius: 50%;
   position: absolute;
-  background-color: #181818;
+  background-color: #e2bb0b;
 }
 .player__playlist {
   height: 100%;
@@ -277,12 +357,18 @@ img[alt="pause-icon"] {
 }
 .player__song {
   /*   gap: 0 .65em ; */
-  display: flex;
+  display:flex;
   cursor: pointer;
   margin-bottom: 0.5em;
   padding-bottom: 0.7em;
-  border-bottom: 0.1em solid #53525259;
+  border-bottom: 0.1em solid #8a8a8a59;
 }
+
+
+
+
+
+
 
 .content {
   position: relative;
