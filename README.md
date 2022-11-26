@@ -13,8 +13,10 @@
 - Guns N Rpses
 
 ## Paragraph
+Somos una banda estadounidense de hard rock formada en Hollywood en la zona de Sunset Strip 
+alrededor de Santa Mónica, en el área metropolitana de Los Ángeles, California en 1985
+         
 
--Porque tengo muy buena experiencia para cumplir con cualquier labor que la empresa me asigne además de ser una persona responsable y cumplidora con mi deber, le puedo aportar mucho a la empresa. 
 
 ## Icons / Class
 
